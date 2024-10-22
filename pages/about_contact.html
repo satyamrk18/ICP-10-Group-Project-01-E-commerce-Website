@@ -1,48 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Booking - Confirmation</title>
+    <title>About_Contact</title>
+    <style>
+        header {
+            background-color: skyblue;
+            color: white;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
 </head>
+
 <body>
+
+
+    <header>
+        <a href="index.html" target="nre">
+            <img src="https://media.istockphoto.com/id/1312128591/vector/home-icon-vector-house-sign.jpg?s=612x612&w=0&k=20&c=jxUT546g8Cfgv1SiAfh2Eos46XI3DqYvPLhxGFaobpE="
+                width=50 height=50 style="border-radius: 50%;"></a>
+        <h1>Contact Us</h1>
+        <h1>About Us</h1>
+        <h1><span>GET IN TOUCH</span></h1>
+    </header>
     <p>
+        <img src="https://digitallinkspro.qa/wp-content/webp-express/webp-images/uploads/2023/09/ecommerce-website-checklist-b-.jpg.webp"
+            height=400 width="100%">
         <h1><li><u>Contact</u></li></h1><hr>
-        <a href="Homepage.html" name="Home">Home</a>|
-        <a href="BookingPage.html" name="Bookingpage">Booking Confirmation</a>|
-        <a href="contact.html" name="Contact">Contact</a>|
     </p>
-    <section>
-        <h1><span style="background-color:greenyellow">Get in Touch!</span></h1>
-        <p><i>We'd love to hear from you! Whether you have a question, comment, or just want to say hello, please don't hesitate to reach out.</i></p>
-        <form>
-            <label for="name"><b>Name:</b></label>
-            <input type="text" id="name" name="name"><br><br>
-            <label for="email"><b>Email:</b></label>
-            <input type="email" id="email" name="email"><br><br>
-            <label for="phone"><b>Phone:</b></label>
-            <input type="tel" id="phone" name="phone"><br><br>
-            <label for="message"><b>Message:</b></label>
-            <textarea id="message" name="message"></textarea><br><br>
-            <input type="submit" value="Send">
-        </form>
+    <div>
+        <h2><span style="background-color:skyblue">Contact Us:</span></h2>
+        <b>We'd love to hear from you! Whether you have a question, comment, or just want to say hello, please don't
+            hesitate to reach out.</b><br><br>
+        <label for="name"><b>Full Name:</b></label>
+        <input type="text" id="name" name="name" required="">
+
+        <label for="name"><b>Last Name:</b></label>
+        <input type="text" id="name" name="name" required=""><br><br>
+
+        <label for="email"><b>Email:</b></label>
+        <input type="email" id="email" name="email" required="">
+
+        <label for="phone"><b>Phone Number:</b></label>
+        <input type="tel" id="phone" name="phone" required=""><br><br>
+
+        <label for="country"><b>Country</b></label>
+        <select id="country" name="country">
+            <option value="india">India</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+        </select>
+        <br>
+        <label for="message"><b>Message:</b></label>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+        <button>Submit</button>
+    </div>
+
+    <div>
+        <hr>
+        <p>
+        <h2><span style="background-color:skyblue">Contact Reason:</span></h2>
+        <select id="contact reason" name="contact reason">
+            <option value="Quality">Quality Issue</option>
+            <option value="Delivery">Delivery Issue</option>
+            <option value="billing">Billing Transaction</option>
+            <option value="Refund">Refund Procedure</option>
+        </select>
+        </p>
+    </div>
+    <div>
+        <h2>
+            <p><b>Quality Issue:</b></p>
+        </h2>
+        <p>
+            <input type="checkbox" id="Not-Satisfied" name="Not-Satisfied">
+            <label for="satisfiction">Not Same as in photo</label>
+            <input type="checkbox" id="Colour-issue" name="colour-issue">
+            <label for="colour">colour issue</label><br>
+            <button>Submit</button>
+        </p>
+    </div>
+    <div>
+        <p>
+        <h2>
+            <p><b>Delivery issue:</b></p>
+        </h2>
+        <p>
+            <input type="checkbox" id="not-in-time" name="not-in-time">
+            <label for="Time">Late Delivery</label>
+            <input type="checkbox" id="location" name="location">
+            <label for="location">Cant get upto certain Location</label><br>
+            <button>Submit</button>
+        </p>
+    </div>
+    <div>
+        <p>
+        <h2>
+            <p><b>Billing Transaction:</b></p>
+        </h2>
+        <input type="checkbox" id="charges" name="charges">
+        <label for="charges">More charges applied</label>
+        <input type="checkbox" id="expensive" name="expensive">
+        <label for="expensive">More Expensive as per Product</label><br>
+        <label for="message"><b>Message for any other Reason:</b></label>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+        <button>Submit</button>
+        </p>
+    </div>
+    <hr>
+    <h2><span style="background-color:skyblue">About Us:</span></h2>
+    <section class="contact-info">
+        <h3>Contact Details:</h3>
+        <address>
+            <b>
+                ANPS SHOPPING e-commerce business
+                Office No. 208 2nd floor, Building Pasaydan-D, Pune - Alandi Rd, near Bharat Petrol Pump, Parande
+                Nagar, Dighi, Pune, Pimpri-Chinchwad, Maharashtra 411015</b><br>
+            Phone: <a href="tel:7722024900">7722024900</a><br>
+            Email: <a href="Ecommerce123@gmail.com">Ecommerce@123.com</a>
+        </address>
     </section>
-    <section>
-        <h2>Our Address</h2>
-        <ul type="circle">
-        <li>Booking</li>
-        <li>123 Main St</li>
-        <li>Anytown, India 12345</li>
-        <li>Phone: 555-555-5555</li>
-        </ul>
-    </section>
-			<p><b>Follow us on social media:</b></p>
-			<ul>
-				<li><a href="https://www.facebook.com/hotelbooking">Facebook</a></li>
-				<li><a href="https://www.twitter.com/hotelbooking">Twitter</a></li>
-				<li><a href="https://www.instagram.com/hotelbooking">Instagram</a></li>
-			</ul>
-            <h2>Thank you</h2>
-    
+
+    <p><b>Follow us on social media:</b></p>
+    <ul>
+        <li><a href="https://www.facebook.com/business/shops">Facebook</a></li>
+        <li><a href="https://www.twitter.com/hotelbooking">Twitter</a></li>
+        <li><a href="https://www.instagram.com/ecommerce_websites_/">Instagram</a></li>
+    </ul>
+    </p>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120995.64738820451!2d73.76648168490232!3d18.61394239487388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c71787eb012b%3A0x66c6ce63d8ce0a29!2sANPS%20SHOPPING%20e-commerce%20business!5e0!3m2!1sen!2sin!4v1729340176825!5m2!1sen!2sin"
+        width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div>
+        <style>
+            footer {
+                background-color: #333;
+                color: white;
+                text-align: center;
+                padding: 1rem 0;
+            }
+        </style>
+
+        <body>
+
+            <footer>
+                <p>© 2024 Ecommerce . All Rights Reserved.</p>
+                <h3>Thank You</h3>
+            </footer>
+    </div>
 </body>
+
 </html>
